@@ -28,67 +28,87 @@
     ></script>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Valeriia Rybakova</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html"
+                title="About Valeriia Rybakova"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/portfolio.html"
+                title="Portfolio by Valeriia Rybakova"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html#contact"
+                title="Contact Valeriia Rybakova"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
-      <p>Hello, I am</p>
+      <p class="text-center">Hello, I am</p>
       <h1>Valeriia Rybakova</h1>
       <h2>front-end developer from Ukraine, based in Poland</h2>
-      <a href="#" class="btn btn-branding">Contact me</a>
+      <a  href="/about.html#contact" class="btn btn-branding mt-4">Contact me</a>
     </div>
-    <div class="container">
-      <p class="text-center m-5">
-        Featured Project which my best projects be choice to show
-      </p>
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img src="/images/yogurt.png" class="img-fluid" alt="" />
+     <div class="container mt-3">
+        <p class="text-center">
+          Featured Project which my best projects be choice to show
+        </p>
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="images/yoga.png"
+            class="img-fluid p-2 shadow rounded"
+            alt="Yoga project"
+          />
         </div>
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Yogurt Project</h2>
-            <p class="mb-4 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <a href="" class="btn btn-branding-outline">View detail project</a>
-          </div>
+        <div class="col-sm-4">
+          <img
+            src="images/weather.png"
+            class="img-fluid p-2 shadow rounded"
+            alt="Weather project"
+          />
         </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Weather Project</h2>
-            <p class="mb-4 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <a href="" class="btn btn-branding-outline">View detail project</a>
-          </div>
-        </div>
-        <div class="col d-none d-lg-block">
-          <img src="/images/weather.png" class="img-fluid" alt="" />
+        <div class="col-sm-4">
+          <img
+            src="images/yogurt.png"
+            class="img-fluid p-2 shadow rounded"
+            alt="Yogurt project"
+          />
         </div>
       </div>
-      <div class="row mb-4">
-        <div class="col d-none d-lg-block">
-          <img src="/images/dictionary.png" class="img-fluid" alt="" />
-        </div>
-        <div class="col">
-          <div class="project-description">
-            <h2 class="mb-5">Dictionary Project</h2>
-            <p class="mb-4 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <a href="" class="btn btn-branding-outline">View detail project</a>
-          </div>
-        </div>
-      </div>
-    </div>
   </body>
 </html>
