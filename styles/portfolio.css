@@ -19,7 +19,8 @@ h6 {
   font-weight: bold;
 }
 
-body {
+body,
+.navbar {
   font-family: var(--default-font-family);
   margin-bottom: 30px;
 }
@@ -246,4 +247,19 @@ p {
 
 .social-icons a:hover {
   color: darkmagenta;
+}
+
+.navbar a,
+.navbar a:hover {
+  color: var(--branding-color);
+}
+
+.nav-item {
+  margin: 0 10px;
+  line-height: 14px;
+  font-weight: 500;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link active {
+  color: black;
 }
