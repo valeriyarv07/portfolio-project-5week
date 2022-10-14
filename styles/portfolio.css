@@ -193,7 +193,6 @@ p {
 }
 
 .content {
-  display: flex;
   margin: 5px 10px;
 }
 
@@ -237,4 +236,11 @@ p {
   font-size: 18px;
   background: var(--secondary-color);
   opacity: 0.9;
+}
+
+.social-icons a {
+  color: var(--branding-color);
+  font-size: 18px;
+  opacity: 0.9;
+  text-decoration: none;
 }
