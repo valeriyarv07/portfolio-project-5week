@@ -125,12 +125,13 @@ p {
   padding: 15px 30px;
 }
 
-.project-description {
+.content-container {
   padding: 120px 60px;
+  text-align: center;
 }
 
 @media (max-width: 1024px) {
-  .project-description {
+  .content-container {
     padding: 0;
     text-align: center;
   }
@@ -191,12 +192,12 @@ p {
   display: block;
 }
 
-.about-paragraphs {
+.content {
   display: flex;
   margin: 5px 10px;
 }
 
-.about-paragraphs p {
+.content p {
   margin: 10px;
 }
 
