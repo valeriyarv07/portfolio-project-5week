@@ -70,7 +70,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .hero p {
@@ -234,7 +234,7 @@ p {
 }
 
 footer {
-  margin: 40px 120px;
+  margin: 40px auto;
 }
 
 footer .contact-box {
@@ -261,7 +261,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: var (--secondary-color);
+  color: var(--secondary-color);
   background-color: var(--branding-color);
 }
 
@@ -272,17 +272,13 @@ footer .social-links a:hover {
   }
 
   h1 {
-    font-size: 46px;
-    line-height: 2;
-    padding: 0 20px;
+    font-size: 42px;
+    line-height: 1.5;
+    padding: 10px 20px;
   }
 
   h2 {
     font-size: 36px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 }
 
